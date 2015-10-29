@@ -1,0 +1,33 @@
+doctype html
+html(lang='it')
+  head
+    meta(charset='UTF-8')
+    title Shine
+    link(rel='stylesheet' href='style.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:900,700italic')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+    script(src='//www.parsecdn.com/js/parse-1.6.7.min.js')
+    script(src='script.js')
+
+  body
+
+    header
+      h1 Shine
+      .h2
+        | I migliori 
+        em hairstylist
+        |  a casa tua
+
+    .hero-picture
+
+    form.contact-form
+      label Avvisami quando il servizio sarà disponibile
+      input#email(type='email' placeholder='Inserisci la tua email')
+      #submit.button INVIA
+      .error-message(style='display: none') Inserisci un indirizzo email valido
+
+    .thank-you-message(style='display: none') Grazie per averci contattato
+      .sub-message Ti abbiamo aggiunto alla lista d'attesa, sarai uno dei primi a provare il nostro servizio
+
+

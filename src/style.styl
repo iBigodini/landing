@@ -1,0 +1,95 @@
+// colors
+greyish-brown = #3c3c3c
+beige = #f9eee2
+white = #ffffff
+pinkish-grey = #b8b5b5
+blush = #f5928f
+
+// sizes
+inputHeight = 54px
+inputFontSize = 18px
+
+body
+  position absolute
+  width 100%
+  height 100%
+  background-image url(http://s13.postimg.org/v3s3no95j/background.jpg)
+  background-attachment fixed
+  background-size cover
+  background-position center center
+  background-repeat no-repeat
+  font-family 'Montserrat', sans-serif
+
+h1, .h2
+  color greyish-brown
+
+header
+  position absolute
+  top 50px
+  left 50px
+h1
+  font-size 96px
+  left 50px
+  font-weight 900
+  font-family 'Playfair Display', serif
+  margin-bottom 30px
+.h2
+  font-size 28px
+  em
+    font-family 'Playfair Display', serif
+    font-weight  700
+    font-style italic
+
+.hero-picture
+  position absolute
+  left 45%
+  bottom 0
+  height 90%
+  width 50%
+  background-image url(http://s13.postimg.org/k5gu5hkk7/i_phone.png)
+  background-repeat no-repeat
+  background-position center right
+  background-size contain
+
+.thank-you-message
+  position absolute
+  width 50%
+  bottom 50px
+  left 50px
+  font-size 32px
+  .sub-message
+    margin-top 10px
+    font-size 18px
+
+.contact-form
+  position absolute
+  bottom 150px
+  left 50px
+  label
+    color pinkish-grey
+    display block
+    margin-bottom 15px
+  input, .button
+    display inline-block
+    border none
+    height inputHeight
+    line-height inputHeight
+    font-size inputFontSize
+    padding: 0 36px
+  input
+    color greyish-brown
+    &:focus
+      outline 0
+  input::-webkit-input-placeholder
+    font-family 'Lato', sans-serif
+  input::placeholder
+    font-family 'Lato', sans-serif
+  .button
+    background-color blush
+    color white
+    margin-left -4px
+    cursor pointer
+  .error-message
+    margin-top 10px
+    color red
+

@@ -1,0 +1,22 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "iBigodini/ShineMe/Shine Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iBigodini/landing.git"
+  },
+  "keywords": [
+    "bigodini"
+  ],
+  "author": "Francesco Giordano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iBigodini/landing/issues"
+  },
+  "homepage": "https://github.com/iBigodini/landing#readme"
+}
