@@ -9,11 +9,9 @@ thankYou = ->
   $('.thank-you-message').css display: 'block'
 
 displayError = ->
-  console.log 'error'
   $('.error-message').css display: 'block'
 
 saveEmail = ->
-  console.log 'doing something...'
   emailAddress = $('#email').val()
   if emailValidator.test emailAddress
     email = new Email()

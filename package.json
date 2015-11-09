@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/iBigodini/landing/issues"
   },
-  "homepage": "https://github.com/iBigodini/landing#readme"
+  "homepage": "https://github.com/iBigodini/landing#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-stylus": "^0.22.0",
+    "npm": "^3.3.12"
+  },
+  "dependencies": {}
 }
